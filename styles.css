@@ -1,0 +1,57 @@
+:root {
+    White: hsl(0, 0%, 100%);
+    Slate-300: hsl(212, 45%, 89%);
+ Slate-500: hsl(216, 15%, 48%);
+Slate-900: hsl(218, 44%, 22%);
+}
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+#intro {
+    font-weight: 700;
+    margin-down: 1.5px;
+}
+#scan {
+    font-weight: 400;
+}
+.component {
+   background-color: hsl(212, 45%, 89%);
+   height: 25rem;
+   margin: auto;
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+}
+.details {
+    width: 20%;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    height: 13rem;
+    padding: 15px
+}
+.code {
+    background-color:  rgb(24, 137, 175);
+    width: 75%;
+    height: 9rem;
+    padding-left: 38px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+p {
+    font-size: 10px;
+    text-align: center;
+}
+.icon {
+margin: auto;
+transform: translate(-50%, -50%);
+    top: 35%;
+    left: 50%;
+    position: absolute;
+}
